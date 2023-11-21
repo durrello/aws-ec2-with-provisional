@@ -5,7 +5,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "example" {
-  ami           = "ami-0fc5d935ebf8bc3bc" # Change this to your desired AMI
+  ami           = "ami-xxxxxxxxxxxxxxxxx" # Change this to your desired AMI
   instance_type = "t2.micro"
 
   tags = {
